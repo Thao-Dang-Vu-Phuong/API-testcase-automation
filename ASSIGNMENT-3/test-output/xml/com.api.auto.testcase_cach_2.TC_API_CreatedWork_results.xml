@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CreatedWork_Testcase_2"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0,046">
+  <properties />
+  
+  
+            <testcase name="TC03_ValidateNameWork" time="0,015" classname="com.api.auto.testcase_cach_2.TC_API_CreatedWork" />
+                <testcase name="TC05_ValidateEducation" time="0,014" classname="com.api.auto.testcase_cach_2.TC_API_CreatedWork" />
+                <testcase name="TC04_ValidateExperience" time="0,015" classname="com.api.auto.testcase_cach_2.TC_API_CreatedWork" />
+                <testcase name="TC02_ValidateId" time="0,001" classname="com.api.auto.testcase_cach_2.TC_API_CreatedWork" />
+                <testcase name="TC01_Validate201Created" time="0,001" classname="com.api.auto.testcase_cach_2.TC_API_CreatedWork" />
+      
+</testsuite>

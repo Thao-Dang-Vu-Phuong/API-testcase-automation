@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+	<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Login_Testcase">
+    <classes>
+      
+      <class name="com.api.auto.testcase.TC_API_Login"/>
+    </classes>
+  </test>
+  <test name="Created_Work_Testcase">
+    <classes>
+      <class name="com.api.auto.testcase.TC_API_CreatedWork"/>
+      
+    </classes>
+  </test>
+</suite> <!-- Suite1 -->

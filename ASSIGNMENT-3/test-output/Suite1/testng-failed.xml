@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Login_Testcase(failed)">
+    <classes>
+      <class name="com.api.auto.testcase.TC_API_Login">
+        <methods>
+          <include name="TC05_ValidateAccount"/>
+          <include name="init"/>
+          <include name="TC01_Validate200OK"/>
+          <include name="TC02_ValidateMessage"/>
+          <include name="TC04_ValidateUserType"/>
+          <include name="TC03_ValidateToken"/>
+        </methods>
+      </class> <!-- com.api.auto.testcase.TC_API_Login -->
+    </classes>
+  </test> <!-- Login_Testcase(failed) -->
+  <test thread-count="5" name="Created_Work_Testcase(failed)">
+    <classes>
+      <class name="com.api.auto.testcase.TC_API_CreatedWork">
+        <methods>
+          <include name="TC03_ValidateNameWork"/>
+          <include name="TC04_ValidateExperience"/>
+          <include name="init"/>
+          <include name="TC05_ValidateEducation"/>
+          <include name="afterTest"/>
+          <include name="TC01_Validate201Created"/>
+          <include name="TC02_ValidateId"/>
+        </methods>
+      </class> <!-- com.api.auto.testcase.TC_API_CreatedWork -->
+    </classes>
+  </test> <!-- Created_Work_Testcase(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
